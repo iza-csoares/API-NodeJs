@@ -9,7 +9,7 @@ const schema = new Schema({
         required: true,
         trim: true
     },
-    slug: { //videogame-nintendo
+    slug: { 
         type: String,
         required: [true, 'O slug é obrigatório'],
         trim: true,
